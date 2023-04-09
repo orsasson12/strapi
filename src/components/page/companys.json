@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_page_companys",
+  "info": {
+    "displayName": "Companys"
+  },
+  "options": {},
+  "attributes": {
+    "Company": {
+      "type": "json"
+    }
+  }
+}

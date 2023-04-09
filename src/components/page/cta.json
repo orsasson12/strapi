@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_ctas",
+  "info": {
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "subHeader": {
+      "type": "text"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.link"
+    }
+  }
+}

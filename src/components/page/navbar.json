@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_navbars",
+  "info": {
+    "displayName": "Navbar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Navbar": {
+      "type": "json"
+    },
+    "navImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PhoneNumber": {
+      "type": "text"
+    }
+  }
+}

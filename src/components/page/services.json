@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_page_services",
+  "info": {
+    "displayName": "Services"
+  },
+  "options": {},
+  "attributes": {
+    "ServicesList": {
+      "type": "json"
+    }
+  }
+}

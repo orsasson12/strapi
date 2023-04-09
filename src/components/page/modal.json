@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_page_modals",
+  "info": {
+    "displayName": "Modal"
+  },
+  "options": {},
+  "attributes": {
+    "Modal": {
+      "type": "json"
+    }
+  }
+}

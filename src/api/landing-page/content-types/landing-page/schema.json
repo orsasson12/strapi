@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "landingPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "page.about",
+        "page.cta",
+        "page.gallery",
+        "page.navbar",
+        "page.services",
+        "page.companys",
+        "page.footer",
+        "page.modal"
+      ]
+    }
+  }
+}

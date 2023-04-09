@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_abouts",
+  "info": {
+    "displayName": "About"
+  },
+  "options": {},
+  "attributes": {
+    "aboutHeadline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "aboutImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
