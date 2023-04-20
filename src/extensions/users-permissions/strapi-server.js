@@ -119,6 +119,8 @@ module.exports = (plugin) => {
     plugin.controllers.auth['refreshToken'] = async (ctx) => {
         const store = await strapi.store({ type: 'plugin', name: 'users-permissions' });
         const { refreshToken } = ctx.request.body;
+        console.log(ctx, ' ctx');
+        console.log(refreshCookie, ' refresh coockie ');
         const refreshCookie = ctx.cookies.get("refreshToken")
 
         if (!refreshCookie && !refreshToken) {
